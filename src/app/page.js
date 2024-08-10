@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import {useState} from "react"
 export default function Home() {
-  const [cnt,setCnt]=useState([]);
+  const [cnt,setCnt]=useState(0);
   const fnclick=()=>{
     setCnt(cnt+1)
   }
