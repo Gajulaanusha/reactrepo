@@ -1,0 +1,15 @@
+.Menu{
+    margin:0;
+    background:cyan;
+    height:30px;
+    width:100%;
+}
+.Menu ul{
+    display:flex;
+    justify-content:space-around;
+    list-style-type:none;
+    align-items:center;
+    padding:5px;
+    font-size:20px;
+    color:black;
+}
